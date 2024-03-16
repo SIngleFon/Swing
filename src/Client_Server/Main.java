@@ -1,8 +1,10 @@
-import Client.UI.ClientUI;
-import Server.Log.FileLogger;
-import Server.UI.ServerUI;
-import Server.Controller.ServerController;
-import Client.Controller.ClientController;
+package Client_Server;
+
+import Client_Server.Client.UI.ClientUI;
+import Client_Server.Server.Log.FileLogger;
+import Client_Server.Server.UI.ServerUI;
+import Client_Server.Server.Controller.ServerController;
+import Client_Server.Client.Controller.ClientController;
 
 public class Main {
     public static void main(String[] args) {

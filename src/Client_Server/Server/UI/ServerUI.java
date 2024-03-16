@@ -1,7 +1,7 @@
-package Server.UI;
+package Client_Server.Server.UI;
 
 import javax.swing.*;
-import Server.Controller.ServerController;
+import Client_Server.Server.Controller.ServerController;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

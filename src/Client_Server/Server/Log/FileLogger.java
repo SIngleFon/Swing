@@ -1,10 +1,10 @@
-package Server.Log;
+package Client_Server.Server.Log;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 
 public class FileLogger implements Logger<String> {
-    private static final String LOG_PATH = "src/Server/Log/log.txt";
+    private static final String LOG_PATH = "src/Client_Server/Server/Log/log.txt";
 
     @Override
     public void appendLog(String text) {

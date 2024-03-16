@@ -1,5 +1,5 @@
-package Client.UI;
-import Client.Controller.ClientController;
+package Client_Server.Client.UI;
+import Client_Server.Client.Controller.ClientController;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -43,7 +43,7 @@ public class ClientUI extends JFrame implements ClientView {
                 public void actionPerformed(ActionEvent e) {
                     if (controller.connectToServer(tfLogin.getText())) {
                         if (tfLogin.getText().equals("Login"))
-                            setTitle("Chat Client");
+                            setTitle("Chat Client_Server.Client");
                         else{
                             setTitle(tfLogin.getText());
                         }

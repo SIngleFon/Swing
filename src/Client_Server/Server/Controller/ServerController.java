@@ -1,10 +1,10 @@
-package Server.Controller;
+package Client_Server.Server.Controller;
 
 import java.util.ArrayList;
 import java.util.List;
-import Client.Controller.ClientController;
-import Server.Log.Logger;
-import Server.UI.ServerView;
+import Client_Server.Client.Controller.ClientController;
+import Client_Server.Server.Log.Logger;
+import Client_Server.Server.UI.ServerView;
 
 public class ServerController {
     private boolean work;

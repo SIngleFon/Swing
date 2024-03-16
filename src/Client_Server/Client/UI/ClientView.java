@@ -1,4 +1,4 @@
-package Client.UI;
+package Client_Server.Client.UI;
 
 public interface ClientView {
     void appendLog(String text);

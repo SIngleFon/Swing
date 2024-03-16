@@ -1,7 +1,7 @@
-package Client.Controller;
+package Client_Server.Client.Controller;
 
-import Client.UI.ClientUI;
-import Server.Controller.ServerController;
+import Client_Server.Client.UI.ClientUI;
+import Client_Server.Server.Controller.ServerController;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
