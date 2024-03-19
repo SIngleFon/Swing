@@ -1,4 +1,6 @@
-package Guide;
+package Guide.Model;
+
+import Guide.UI.UI;
 
 public class Employee {
     private int ID;
@@ -7,7 +9,7 @@ public class Employee {
     private String name;
     private int experience;
 
-    Employee(int number, String name, int experience){
+    public Employee(int number, String name, int experience){
         this.ID = idCount;
         idCount++;
         this.number = number;
@@ -32,6 +34,6 @@ public class Employee {
     }
     @Override
     public String toString() {
-        return "Табельный номер: "+ID+". Номер телефона: "+number+". Имя: "+name+". Стаж: "+experience;
+        return "Табельный номер: "+ID+". Имя: "+name+". Номер телефона: "+number+". Стаж: "+experience ;
     }
 }
